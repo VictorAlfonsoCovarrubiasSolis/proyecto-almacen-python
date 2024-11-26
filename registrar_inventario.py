@@ -17,7 +17,7 @@ def regresar():#para poder regresar al menu
     else:#es usuario
         ventanas.menuus(usuarioactual)#se envia el valor que recibio por la linea de comandos
 
-#creacion de la ventana para el registro de herramientas y materiales
+#creacion de la ventana para el registro de herramientas y materialess
 ventana = tk.Tk()
 ventana.geometry("800x650") #ajuste del ancho y alto respectivamente
 #centrar ventana
