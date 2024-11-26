@@ -11,7 +11,7 @@ def regresar():#para poder regresar al menu
     ventana.destroy()#se destruye la ventana y se dirige al menu
     ventanas.menu(usuarioactual)#se envia el valor que recibio por la linea de comandos
 
-def registrar():#para poder ir a registrar usuarios
+def registrar():#para poder ir a registrar usuarioss
     ventana.destroy()
     ventanas.registrar(usuarioactual)#se envia el valor que recibio por la linea de comandos
 
