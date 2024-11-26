@@ -1,7 +1,7 @@
 import tkinter as tk #para que sea mas facil el uso de la libreria usamos el alias tk si no puesieramos esto tendriamos que poner tkiner a cada rato
 from tkinter import messagebox #para las ventanas emergentes
 from tkinter import ttk #para el estilo
-import cone #para la coneccion ala base de datos
+import cone #para la coneccion ala base de datoss
 import ventanas #para poder cambiar de ventana
 import sys #para obtener el valor de la variable usuario desde ventanas que se va pasando desde el main para saber que usuario es el que esta logeado
 
