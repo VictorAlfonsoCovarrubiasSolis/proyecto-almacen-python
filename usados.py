@@ -1,5 +1,5 @@
 import tkinter as tk #para que sea mas facil el uso de la libreria usamos el alias tk si no puesieramos esto tendriamos que poner tkiner a cada rato
-from tkinter import messagebox #para las ventanas emergentes
+from tkinter import messagebox #para las ventanas emergentess
 from tkinter import ttk #para el treeview y el estilo
 import cone #para la coneccion ala base de datos
 import ventanas #para poder cambiar de ventana
