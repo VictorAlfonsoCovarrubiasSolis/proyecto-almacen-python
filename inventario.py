@@ -7,7 +7,7 @@ import sys #para obtener el valor de la variable usuario desde ventanas que se v
 
 conexion = cone.conectar()#se crea la coneccion a la base de datos
 
-def regresar():#para poder regresar al menu
+def regresar():#para poder regresar al menu del nivel de usuario
     ventana.destroy()#se destruye la ventana y se dirige al menu
     #se checa el ro, del usuario para saber a que menu ir
     querol = cone.valor_especifico(conexion, "usuarios", "rol", "usuario", usuarioactual) #se busca el rol usando el valor de usuario
